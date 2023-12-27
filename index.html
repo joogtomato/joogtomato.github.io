@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Joo Personal Website</title>
+    <title>Joo Kim</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="blurb">
-        <h1>Hi there, welcome to my website!</h1>
-        <p>Who am I?</p>
+
+<!--   Home, About, Experience, Projects   -->
+    <header>
+      <div class="nav_bar">
+        <ul>
+          <li class="Home active"><a href="#Home" class="nav_link active">Home</a></li>
+          <li class="Experience"><a href="#Experience" class="nav_link">Experience</a></li>
+          <li class="Project"><a href="#Projects" class="nav_link">Projects</a></li>
+          <li class="Connect"><a href="#Connect" class="nav_link">Connect</a></li>
+        </ul>
       </div>
+    </header>
+    <br>
+    <br>
+    <div class="content">          
+      <section id="Home">
+        <h1 class="name_title">
+          Hi! I'm 
+          <span>J</span>
+          <span>o</span>
+          <span>o</span>
+          .
+        </h1>
+        <h1>
+          I'm a current undergraduate student majoring in Computer Science at the University of Washington. 
+        </h1>
+        <p>
+          I've been a tutor, CS course teaching assistant, mentor, and research assistant.
+          I'm passionate about making CS education and technology inclusive, diverse, and accessible!
+        </p>
+
+      </section>
+
+      <section id="Experience">
+        <h1>
+          EXPERIENCE
+        </h1>
+        <ul>
+          <li>Research Assistant</li>
+          <li>Program Lead, Mentor</li>
+          <li>Teaching Assistant</li>
+        </ul>
+
+      </section>
+
+      <section id="Projects">
+        <h1>
+          PROJECTS
+        </h1>
+        <p>
+          This section is currently being updated.
+        </p>
+
+      </section>
+      
+      <section id="Connect">
+        <h1>
+          CONNECT
+        </h1>
+        <ul>
+          <li>LinkedIn</li>
+          <li>GitHub</li>
+          <li>Email</li>
+        </ul>
+
+      </section>
     </div>
-    <footer>
-      <ul>
-        <li><a href="mailto:kimjoogy@cs.washington.edu">Email me</a></li>
-        <li>
-          <a href="https://github.com/joogtomato">github.com/joogtomato</a>
-        </li>
-      </ul>
-    </footer>
+
   </body>
 </html>
