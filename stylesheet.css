@@ -1,15 +1,96 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600&family=Goblin+One&family=Mukta&family=Roboto&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
 body {
-    margin: 0 auto;
-    max-width: 50em;
-    font-family: "Roboto", "Arial", sans-serif;
-    line-height: 1.5;
-    padding: 4em 1em;
-    background-color: #f2ede4;
-    color: #555;
+  background-color: #f2ede4;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  
 }
 
-a {
-  color: #F2522E;
+.name_title {
+  font-family: 'Rubik Doodle Shadow', sans-serif;
+  font-size: 4rem;
+  padding: 4rem 0 3rem;
+  position: relative;
+  color: #0D0D0D;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.name_title span {
+  position: relative;
+  top: 20px;
+  text-shadow: 0 1px 0 #F2B872, 0 2px 0 #F2B872, 0 3px 0 #F2B872, 0 4px 0 #F2B872,
+    0 5px 0 #F2B872, 0 6px 0 transparent, 0 7px 0 transparent,
+    0 8px 0 transparent, 0 9px 0 transparent, 
+    0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px;
+  display: block;
+}
+
+.nav_bar {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  margin: 20px auto 0;
+  z-index: 999;
+  box-sizing: border-box;
+}
+
+.nav_bar a {
+  float: none;
+  padding: 3px 10px;
+  margin: 0 3px;
+  display: block;
+  text-decoration: none;
+  color: #0D0D0D;
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  transition: all .2 ease-in-out;
+}
+
+header .nav_bar ul li.active {
+  background-color: white;
+  border-radius: 50px;
+  transition: 0.3;
+}
+
+.nav_bar li {
+  display: inline-block;
+  position: relative;
+}
+
+.nav_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  backdrop-filter: blur(20px) saturate(1.7);
+  border-radius: 50px;
+  transition: all .2s linear;
+}
+
+.content {
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+p {
+  font-family: "Blinker", sans-serif;
 }
